@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #4a148c 0%,
+    #4a148c 50%,
+    #b388ff 50%,
+    #b388ff 100%
+  );
+  text-align: center;
+  color: bisque;
+}
+header {
+  background: rgb(199, 127, 218);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 127, 218, 0.5648634453781513) 7%,
+    rgba(9, 18, 121, 1) 52%,
+    rgba(0, 212, 255, 1) 96%
+  );
+}
+
+label {
+  display: inline-block;
+  font-weight: bold;
+  
+}
+input {
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
+section button {
+  padding: 5px 7px;
+  margin: 15px;
+  border: none;
+  color: bisque;
+  background: #651FFF;
+  font-size: 23px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  border-radius: 5px;
+}
+section button:hover {
+  background: #6200EA
+}
+section .container-From {
+  margin-top: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container-to {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RandomNumberE1{
+  display:inline-block
+ }
